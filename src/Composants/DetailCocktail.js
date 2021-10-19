@@ -18,7 +18,7 @@ const DetailCocktail = (props) => {
                             <p > {iterateur.strDrink}  </p>
                         </Card.Header>
                         <Image src={iterateur.strDrinkThumb}></Image>
-                        <p><b>Catégorie:</b>   {iterateur.strCategory}  </p>
+                    
                         <p><b>Catégorie:</b>   {iterateur.strCategory}  </p>
                         <p><b>Catégorie:</b>   {iterateur.strCategory}  </p>
                         <p><b> Alcool:</b>   {iterateur.strAlcoholic}  </p>
