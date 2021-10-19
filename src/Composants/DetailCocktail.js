@@ -22,7 +22,7 @@ const DetailCocktail = (props) => {
                         <p><b>Catégorie:</b>   {iterateur.strCategory}  </p>
                         <p><b> Alcool:</b>   {iterateur.strAlcoholic}  </p>
                         <p><b> Glass:</b>   {iterateur.strGlass}  </p>
-                        <p><b> Video:</b>   {iterateur.strVideo}  </p>
+                        <p><b> Video:</b> <a href={iterateur.strVideo} > {iterateur.strVideo}  </a>  </p>
                         <p><b>Ingrédiens: </b> {iterateur.strIngredient1} ,
                             {iterateur.strIngredient2} ,
                             {iterateur.strIngredient3} ,
