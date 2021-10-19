@@ -20,7 +20,7 @@ const Recherche = (props) => {
                         <Card.Header>
                             <p > {iterateur.strDrink}  </p>
                         </Card.Header>
-                        <Image src={iterateur.strDrinkThumb}></Image>
+                        <a> <Image src={iterateur.strDrinkThumb}></Image></a>
                     </Card.Content>
                 </Card>)
         })
